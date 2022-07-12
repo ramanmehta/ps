@@ -1,0 +1,8 @@
+// Query check
+
+ step1- DB::connection()->enableQueryLog();
+
+ step2- Model::find(id)->count();
+
+ step3- dd(DB::getQueryLog());
+ 
