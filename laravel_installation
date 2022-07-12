@@ -1,0 +1,24 @@
+//laravel installation guide website : 
+  https://www.cloudbooklet.com/how-to-install-lamp-apache-mysql-php-in-ubuntu-22-04/
+
+//php fpm configuration
+  https://www.cloudbooklet.com/how-to-install-php-fpm-with-apache-on-ubuntu-20-04/
+
+//php myadmin configuration
+  https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04
+
+  https://www.youtube.com/watch?v=NboJeJTRzic
+
+//server authorization problem
+
+  tail -f storage/logs/laravel.log
+  sudo a2enmod rewrite
+  sudo a2enmod rewrite
+  systemctl restart apache2
+  
+  https://github.com/laravel/laravel/blob/v5.2.27/public/.htaccess
+
+  https://laravel.com/docs/4.2/errors
+
+
+
