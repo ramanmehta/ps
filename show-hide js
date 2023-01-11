@@ -1,0 +1,10 @@
+document.getElementById("show").addEventListener("click", toggle);
+function toggle() {
+        var cont = document.getElementsByClassName("wp-block-woocommerce-attribute-filter");
+        if (cont.style.display == 'block') {
+            cont.style.display = 'none';
+        }
+        else {
+            cont.style.display = 'block';
+        }
+    }
