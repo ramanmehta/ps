@@ -1,0 +1,5 @@
+//Install plugin FTP credentials to proceed - solutions for local no ftp
+edit : wp-config.php : paste below code
+
+/** Disble FTP requirement */
+define( 'FS_METHOD', 'direct' );
